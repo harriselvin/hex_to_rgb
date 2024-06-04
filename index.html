@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hex to RGB Converter</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <script src="./Script/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <h1>HEX to RGB Color Converter</h1>
+            </div>
+            <div class="blocks">
+                <div class="hex-val">
+                    <p>Hex color code</p>
+                    <input type="text" placeholder="#RRGGBB">
+                    <button>Convert</button>
+                    <button>Reset</button>
+                </div>
+                <div class="rgb-convert">
+                    <div class="red">
+                        <p><span class="r">R</span> Red</p>
+                        <input type="text" placeholder="255" disabled>
+                    </div>
+                    <div class="green">
+                        <p><span class="g">G</span> Green</p>
+                        <input type="text" placeholder="255" disabled>
+                    </div>
+                    <div class="blue">
+                        <p><span class="b">B</span> Blue</p>
+                        <input type="text" placeholder="255" disabled>
+                    </div>
+                </div>
+                <div class="css-color">
+                    <p>CSS Color</p>
+                    <input type="text" placeholder="rgb(255, 255, 255)" disabled>
+                    <p class="color-box"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
